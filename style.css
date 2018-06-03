@@ -1,0 +1,20 @@
+.content{
+	border-radius: 0px 0px 10px 10px;
+	border: thin rgba(54,54,54,1.00) solid;
+	
+}
+.btn-small{
+	background-color:rgba(0,148,160,1.00);
+	border-radius: 5px;
+	margin: 0px 10px 0px 10px;
+}
+.emoji,.audio,.addimg{
+	background-color: aliceblue;
+	color: rgba(0,148,160,1.00);
+	font-weight: bold;
+	letter-spacing: 0;
+	
+}
+.emoji:hover,.audio:hover,.addimg:hover{
+	background-color: rgba(154,221,206,1.00) ;
+}
