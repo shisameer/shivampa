@@ -18,7 +18,15 @@
 .emoji:hover,.audio:hover,.addimg:hover{
 	background-color: rgba(154,221,206,1.00) ;
 }
-.actions{
-	background-color: aquamarine;
-	
+@media(max-width:776px){
+	.actions{
+	display: flex;
+	flex-wrap:wrap;
+	flex-direction: column;
+	}
+}
+@media(max-width:380px){
+	.addimg,.emoji,.audio{
+		height: auto;
+	}
 }
